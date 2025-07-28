@@ -63,7 +63,7 @@ st.markdown("""
     .footer {
         position: fixed;
         bottom: 0;
-        right: 0;
+        right: 1;
         color: #888;
         font-size: 20px;
         padding: 12px 20px;
