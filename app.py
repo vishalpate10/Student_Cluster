@@ -56,3 +56,23 @@ if uploaded_file:
     ax3.pie(lab_score_sum, labels=lab_score_sum.index, autopct='%1.1f%%')
     ax3.set_title("Total Lab Score per Cluster")
     st.pyplot(fig3)
+
+# Footer
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        color: #888;
+        font-size: 14px;
+        padding: 8px 16px;
+        text-align: right;
+        z-index: 100;
+    }
+    </style>
+    <div class="footer">
+        Developed by Vishal<br>
+        <a href="mailto:vprakashpate@gmail.com">vprakashpate@gmail.com</a>
+    </div>
+    """, unsafe_allow_html=True)
